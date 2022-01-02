@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
+import si.login.exception.UserNotFoundException;
 import si.login.model.User;
 import si.login.repository.UserRepository;
 
@@ -39,29 +40,6 @@ public class UserService {
         }
     }
 
-
-    public ResponseEntity<Object> getUserById(int userId) {
-        try {
-            Optional<User> fetchedUser = userRepository.findById(userId);
-            System.out.println(userRepository.findById(userId));
-            if (fetchedUser.isEmpty()) return new ResponseEntity<>("Resource not found" + fetchedUser, HttpStatus.valueOf(404));
-
-            EntityModel<User> resource = EntityModel.of(fetchedUser.get());
-            WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).findAllUsers());
-            resource.add(linkTo.withRel("all-users"));
-
-            Link selfLink = linkTo(methodOn(this.getClass()).getUserById(userId)).withSelfRel();
-            resource.add(selfLink);
-
-            return new ResponseEntity<>("Resource successfully fetched" + resource, HttpStatus.valueOf(200));
-
-        } catch (Exception exception) {
-            if (exception.toString().contains("could not extract ResultSet")) return new ResponseEntity<>("Internal Server Error: \n" + exception, HttpStatus.valueOf(500));
-            return new ResponseEntity<>("The expectation given in the request's Expect header could not be met: \n" + exception, HttpStatus.valueOf(417));
-        }
-    }
-
-
     public ResponseEntity<String> updateExistingUser(int userId, User requestedUser) {
         try {
             User changedUser = userRepository.findById(userId).orElse(null);
@@ -78,7 +56,6 @@ public class UserService {
             return new ResponseEntity<>("The expectation given in the request's Expect header could not be met" + exception, HttpStatus.valueOf(417));
         }
     }
-
 
     public ResponseEntity<String> deleteExistingUser(int userId) {
         try {
