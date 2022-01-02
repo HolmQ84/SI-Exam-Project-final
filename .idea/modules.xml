@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-EurekaServer/SI-Exam-EurekaServer.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-EurekaServer/SI-Exam-EurekaServer.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameInfo/SI-Exam-GameInfo.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameInfo/SI-Exam-GameInfo.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameService/SI-Exam-GameService.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameService/SI-Exam-GameService.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Gamehub/SI-Exam-Gamehub.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Gamehub/SI-Exam-Gamehub.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Monitor/SI-Exam-Monitor.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Monitor/SI-Exam-Monitor.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-QACamunda/SI-Exam-QACamunda.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-QACamunda/SI-Exam-QACamunda.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-QACategorization/SI-Exam-QACategorization.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-QACategorization/SI-Exam-QACategorization.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Review/SI-Exam-Review.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Review/SI-Exam-Review.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-EurekaGateway/Si-Exam-EurekaGateway.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-EurekaGateway/Si-Exam-EurekaGateway.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-LoginSystem/Si-Exam-LoginSystem.iml" filepath="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-LoginSystem/Si-Exam-LoginSystem.iml" />
+    </modules>
+  </component>
+</project>

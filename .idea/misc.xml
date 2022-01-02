@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-EurekaGateway/pom.xml" />
+        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-EurekaServer/pom.xml" />
+        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameInfo/pom.xml" />
+        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameService/pom.xml" />
+        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-LoginSystem/pom.xml" />
+        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Monitor/pom.xml" />
+        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Review/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
