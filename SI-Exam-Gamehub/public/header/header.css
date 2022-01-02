@@ -1,0 +1,71 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navImage {
+    width: 50%;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatCenter {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.user_details {
+    color: white;
+}
+
+.form-control {
+    border: transparent;
+    background-color: #363636;
+}
+
+.btn {
+    border: transparent;
+    background-color: #E88B00;
+}
+
+.btn:hover {
+    border: transparent;
+    background-color: #FFA31A;
+    text-align: center;
+}
+
+.navbar-nav li a:hover{
+    color: #FF9900;
+}
+
+.dropdown-menu {
+    background-color: #363636;
+    border-radius: 0.5em;
+}
+
+.dropdown-menu li a {
+    color: white;
+}
+
+.dropdown-menu li a:hover {
+    color: orange;
+    background-color: #363636;
+}
+
+#user_name {
+    color: orange;
+}
+
+#user_name:hover {
+    color: orange;
+}
+

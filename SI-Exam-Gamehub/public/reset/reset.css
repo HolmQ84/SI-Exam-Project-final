@@ -1,0 +1,41 @@
+.reset_container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.reset_container h1 {
+    color: orange;
+    margin-bottom: 5%;
+}
+
+.reset_container table {
+    margin: auto;
+    text-align: right;
+    color: white;
+    font-size: 1.2em;
+}
+
+.navCellRight input {
+    margin-left: 10px;
+    border-radius: 0.5em;
+    color: black;
+}
+
+.navCellLeft {
+    margin-right: 10px;
+    color: orange;
+}
+
+#message-container {
+    margin-top: 3%;
+    color: white;
+    font-size: 1.2em;
+}
+
+#message-container a {
+    color: orange;
+}
+
+#counter {
+    color: orange;
+}

@@ -1,0 +1,10 @@
+server:
+  port: 8086
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: game-info
+  application:
+    name: SI-Exam-Monitor

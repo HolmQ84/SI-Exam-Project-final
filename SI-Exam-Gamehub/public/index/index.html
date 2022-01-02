@@ -1,0 +1,27 @@
+
+<div id="welcome"></div>
+
+<!-- Chat function -->
+<button class="open-button" onclick="openForm()">Open the chat</button>
+
+<div class="chat-popup" id="myForm">
+    <form class="form-container" id="send_container" autocomplete="off">
+        <h1>Chat</h1>
+        <div id="chat_messages">
+            <p id="welcome-header">Welcome to the chat</p>
+        </div>
+        <input placeholder="Type message.." id="msg_from_user" required>
+        <button type="submit" class="btn">Send message</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close the chat</button>
+    </form>
+</div>
+
+
+
+<!-- Because Patrick loves <br>! -->
+<!-- And if he wants it removed, he will have to style it away! -->
+<!-- (PS. Im also in search.html and games.html) -->
+<br><br><br><br><br>
+
+<script src="../index/index.js"></script>
+<script src="/socket.io/socket.io.js"></script>

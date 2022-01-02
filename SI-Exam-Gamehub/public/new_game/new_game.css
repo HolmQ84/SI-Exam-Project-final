@@ -1,0 +1,58 @@
+.create_container {
+    padding: 1%;
+    margin: 5% 30%;
+    background-color: #363636;
+    border-radius: 20px 40px 20px 50px;
+
+}
+
+.create_container form table {
+    color: white;
+    width: 100%;
+}
+
+.create_container h1 {
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    color: orange;
+}
+
+.text_right input{
+    border-radius: 0.5em;
+    line-height: 1.5em;
+    width: 100%;
+    color: black;
+    padding-left: 1%;
+}
+
+.text_right {
+    text-align: left;
+    border-radius: 0.5em;
+    padding-right: 10%;
+}
+
+.text_left {
+    text-align: right;
+    width: auto;
+}
+
+.create_game_table tr td {
+    text-align: right;
+    color: orange;
+    padding-bottom: 1%;
+    padding-right: 4%;
+    font-size: 1.5em;
+}
+
+textarea {
+    border-radius: 0.5em;
+    resize: none;
+    width: 100%;
+    color: black;
+}
+
+form {
+    margin-right: 10%;
+    margin-left: 10%;
+}

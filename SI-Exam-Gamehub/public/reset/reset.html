@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="./reset.css">
+
+<div class="reset_container">
+    <h1>Reset Password</h1>
+
+    <h3>Enter new password</h3>
+    <br>
+    <table>
+        <tr>
+            <td class="navCellLeft">New Password</td>
+            <td class="navCellRight"><input type="password" id="password" size="30"></td>
+        </tr>
+        <tr>
+            <td class="navCellLeft">Confirm password</td>
+            <td class="navCellRight"><input type="password" id="confirm" size="30"></td>
+        </tr>
+    </table>
+    <br>
+    <button onclick="resetPassword()" class="btn btn-primary" type="submit">Done</button>
+    <div id=message-container></div>
+</div>
+
+<script src="reset.js"></script>

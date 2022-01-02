@@ -1,0 +1,48 @@
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px
+}
+
+body {
+    background-size: 100% 100%;
+    background-color: black;
+    background-attachment: fixed;
+    font-family: Bahnschrift, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+.buttons {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.buttons button {
+    background-color: #212121;
+    border-radius: 1em;
+    border: none;
+    color: #FF9900;
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-top: 2%;
+}
+
+.buttons button:hover {
+    background-color: orange;
+    color: #000000;
+}
+
+.buttons a {
+    color: orange;
+}
+
+.buttons a:hover {
+    color: #000000;
+}

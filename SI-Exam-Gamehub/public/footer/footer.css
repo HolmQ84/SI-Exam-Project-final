@@ -1,0 +1,18 @@
+.barLeft {
+    float: left;
+}
+.barRight {
+    float: right;
+}
+.bar {
+    font-size: 0.9em;
+}
+
+.barMid {
+    text-align: center;
+    position: relative;
+}
+
+#footer {
+    background-color: #161616;
+}

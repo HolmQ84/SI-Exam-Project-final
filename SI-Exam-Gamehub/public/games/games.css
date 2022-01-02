@@ -1,0 +1,56 @@
+
+.games_container {
+    margin-top: 5%;
+}
+
+/* Styles the container containing each review */
+.review_container {
+    background: #0a0a0a;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 25%;
+    padding: 1% 10% 1% 3%; /* padding top, right, bottom, left */
+    position: relative;
+    width: 50%;
+    border: transparent;
+    border-radius: 15px 50px 30px 5px;
+}
+
+/* Styles the header for review container  */
+.review_container h1 {
+    position: relative;
+    padding-right: 10%;
+    color: white;
+}
+
+.review_container p {
+    position: relative;
+    color: #E88B00;
+}
+
+/* Removes blue line from href  */
+a:hover {
+    text-decoration: none;
+}
+
+/* Styles Hover for header and review container  */
+.review_container:hover, .review_container h1:hover {
+    background-color: #363636;
+    color: #FF9900;
+}
+
+.review_container .review_img_container {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.review_container .review_img_container img {
+    object-fit: cover;
+    width: 15em;
+    height: 100%;
+    border: transparent;
+    border-radius: 0 5px 30px 0;
+}

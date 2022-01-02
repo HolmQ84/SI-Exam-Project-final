@@ -1,0 +1,41 @@
+.update_user_container {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #363636;
+    border-radius: 40px 10px 40px 10px;
+}
+
+.update_user_container h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.update_table {
+    margin-left: 25%;
+    margin-right: 15%;
+    font-size: 1em;
+    position: relative;
+}
+
+.update_table tr td {
+    padding: 1%;
+}
+
+.lefty {
+    color: orange;
+    text-align: right;
+    margin-bottom: 1%;
+}
+
+.righty {
+    color: black;
+}
+
+.righty input {
+    border-radius: 0.5em;
+    padding: 5px;
+    width: 150%;
+}

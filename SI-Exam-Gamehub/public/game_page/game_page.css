@@ -1,0 +1,132 @@
+#current_game {
+    font-size: 2em;
+}
+
+#game_reviews {
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#current_game h1 {
+    font-size: 3em;
+}
+
+#game_reviews h1 {
+    color: #FF9900;
+}
+
+#current_image {
+    width: 25em;
+    border-radius: 0 10px 0 10px;
+}
+
+.single_game {
+    background-color: #363636;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: white;
+    border-radius: 40px 10px 40px 10px;
+    font-size: 0.7em;
+}
+
+.single_game h1 {
+    color: #FF9900;
+}
+
+.inner_table_left {
+    text-align: right;
+    padding-right: 5%;
+    width: 50%;
+    color: #FF9900;
+}
+
+.inner_table_right {
+    width: 50%;
+}
+
+.inner_table {
+    margin-right: 10%;
+    width: 100%;
+}
+
+.resume {
+    margin-top: 4%;
+    margin-left: 4%;
+    color: #FF9900;
+    font-size: 1.2em
+}
+
+.resume_text {
+    margin: 2% 4% 4% 4%;
+    padding-bottom: 4%;
+    font-size: 0.8em;
+}
+
+#game_reviews table {
+    width: 100%;
+}
+
+.table_div {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2em;
+}
+
+.table_div h3 {
+    border-top: 3px solid orange;
+    padding-top: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: orange;
+}
+
+.table_div table thead tr th{
+    text-align: center;
+    color: orange;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-decoration: underline;
+}
+
+#review_adder tr td{
+    padding-bottom: 2%;
+}
+
+.text_right {
+    color: black;
+}
+
+#write-review {
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#score {
+    color: black;
+    text-align: center;
+    border-radius: 0.5em;
+    height: 2em;
+    width: 3em;
+    padding: 0 0 0 10px;
+}
+
+#review_submit {
+    margin-top: 2%;
+}
+
+#login_link {
+    color: orange;
+}
+
+#login_link:hover {
+    color: black;
+}
+
+#comment {
+    width: 75%;
+    color: black;
+    border-radius: 0.5em;
+    resize: none;
+}

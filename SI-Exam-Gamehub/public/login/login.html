@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="../login/login.css">
+
+<div class="login-form">
+    <h1>Login</h1>
+    <div class="form-input-container">
+        <input name="email" id="email" type="email" placeholder="email@address.com" required>
+    </div>
+    <div class="form-input-container">
+        <input name="password" id="password" type="password" placeholder="Your password" required>
+    </div>
+    <button onclick="login()" type="submit" class="form-submit-button">Login</button>
+    <div class="bottom-text">
+        <p>Forgot your password? <a href="/forgotPassword">Reset password</a></p>
+        <p>Don't have an account yet? <a href="/register">Sign up</a></p>
+    </div>
+    <div id="login_message"></div>
+</div>
+
+<script src="login.js"></script>

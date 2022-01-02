@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../signup/signup.css">
+</head>
+<body>
+<form action="/users" method="post" id="signup-form" class="singup-form" >
+    <h1>Sign Up</h1>
+
+    <div class="form-input-container">
+        <input name="username" type="text" placeholder="Username" required>
+    </div>
+
+    <div class="form-input-container">
+        <input name="firstname" type="text" placeholder="First name" required>
+    </div>
+
+    <div class="form-input-container">
+        <input name="lastname" type="text" placeholder="Last name" required>
+    </div>
+
+    <div class="form-input-container">
+        <input name="phonenumber" type="number" placeholder="Phonenumber" pattern="[0-9]{8,8}" required>
+    </div>
+
+    <div class="form-input-container">
+        <input name="gender" type="text" placeholder="Gender">
+    </div>
+
+    <div class="form-input-container">
+        <input name="birthdate" type="date" placeholder="dd-mm-yyyy" required>
+    </div>
+
+    <div class="form-input-container">
+        <input name="email" type="email" placeholder="email@address.com" required>
+    </div>
+
+    <div class="form-input-container">
+        <input name="password" type="password" placeholder="Your password" required>
+    </div>
+
+    <input type="submit" class="form-submit-button" value="Register">
+
+    <div class="bottom-text">
+        <p>Already have an account? <a href="/login">Log in</a></p>
+    </div>
+</form>
+</body>
+</html>

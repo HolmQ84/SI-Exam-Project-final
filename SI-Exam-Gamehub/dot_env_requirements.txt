@@ -1,0 +1,13 @@
+List of items to put in the ".env" file:
+
+DB_CONNECTION_URL=127.0.0.1
+DB_CONNECTION_USER='Your username'
+DB_CONNECTION_PASSWORD='Your password'
+DB_NAME=gamehub
+DB_USER_TABLE=users
+DB_REVIEWS_TABLE=reviews
+DB_GAMES_TABLE=games
+DB_GENRE_TABLE=genres
+SESSION_SECRET="something" - fx. 30 character random key from https://randomkeygen.com/
+NODEMAILER_EMAIL=The email to be used
+NODEMAILER_PASSWORD= the password for the email

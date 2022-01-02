@@ -1,0 +1,103 @@
+.user_info_container {
+    width: 35%;
+    background: #363636;
+    height: 100%;
+    padding: 80px 40px;
+    border-radius: 40px 10px 40px 10px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 35%;
+    margin-bottom: 5%;
+}
+
+.user_info_container img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    margin-top: 5%;
+}
+
+.user_info_container h2 {
+    font-size: 2.5em;
+    position: relative;
+    text-align: center;
+    color: orange;
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+
+.user_info_container h4 {
+    border-top: 2px solid orange;
+    margin-top: 5%;
+    padding-top: 5%;
+    margin-bottom: 4%;
+    color: orange;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.update_user_container {
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #363636;
+    border-radius: 40px 10px 40px 10px;
+}
+
+.update_user_container h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.user_info_table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    position: relative;
+}
+
+.user_info_table td {
+    padding:5px 15px;
+    font-size: 1.5em;
+}
+
+.lefty {
+    color: orange;
+    text-align: right;
+    margin-bottom: 1%;
+    width: 50%;
+}
+
+.righty {
+    color: white;
+    padding-left: 5%;
+    width: 50%;
+}
+
+.righty input {
+    border-radius: 0.5em;
+    padding: 5px;
+    width: 150%;
+}
+
+.user_review_table {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.user_review_table th {
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+}
+
+.user_review_table td {
+    padding:5px 15px;
+}

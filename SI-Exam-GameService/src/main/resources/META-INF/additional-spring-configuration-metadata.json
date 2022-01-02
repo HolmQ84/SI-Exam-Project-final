@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "email",
+      "type": "java.lang.String",
+      "description": "Description for email."
+    },
+    {
+      "name": "email_password",
+      "type": "java.lang.String",
+      "description": "Description for email_password."
+    },
+    {
+      "name": "email_provider_mail",
+      "type": "java.lang.String",
+      "description": "Description for email_provider_mail."
+    },
+    {
+      "name": "email_host",
+      "type": "java.lang.String",
+      "description": "Description for email_host."
+    },
+    {
+      "name": "email_port",
+      "type": "java.lang.String",
+      "description": "Description for email_port."
+    }
+  ] }

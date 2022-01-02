@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="../new_game/new_game.css">
+
+
+<div class="create_container">
+    <h1>Add new game</h1>
+    <form action="/games" method="post">
+        <table class="create_game_table">
+            <tr>
+                <td class="text_left">Name</td>
+                <td class="text_right"><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td class="text_left">Picture Url</td>
+                <td class="text_right"><input type="text" name="picture_url"></td>
+            </tr>
+            <tr>
+                <td class="text_left">Developers</td>
+                <td class="text_right"><input type="text" name="developers"></td>
+            </tr>
+            <tr>
+                <td class="text_left">Genres</td>
+                <td class="text_right"><input type="text" name="genre"></td>
+            </tr>
+            <tr>
+                <td class="text_left">Platforms</td>
+                <td class="text_right"><input type="text" name="platform"></td>
+            </tr>
+            <tr>
+                <td class="text_left">Release Date</td>
+                <td class="text_right"><input type="text" name="release_date"></td>
+            </tr>
+            <tr>
+                <td class="text_left">Resumé</td>
+                <td class="text_right"><textarea name="resume" rows="10"></textarea></td>
+            </tr>
+        </table>
+            <div class="buttons">
+                <button type="submit">Create Game</button>
+                <a href="/"><button>Cancel</button></a>
+            </div>
+        <br>
+    </form>
+</div>

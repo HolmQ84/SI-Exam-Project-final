@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Gamehub</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <link rel="shortcut icon" type="image/jpg" href="../images/favicon.png"/>
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="../index/index.css">
+    <link rel="stylesheet" href="../search/search.css">
+    <link rel="stylesheet" href="../users/users.css">
+    <link rel="stylesheet" href="../game_page/game_page.css">
+    <script src="/socket.io/socket.io.js"></script>
+   <!-- <link rel="stylesheet" href="../login/login.css"> -->
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header floatLeft">
+            <a href="/"><img class="navImage" src="../images/logo.png" alt="logo"></a>
+        </div>
+        <div class="floatCenter">
+            <form class="navbar-form navbar-left" action="/search" method="post" autocomplete="off">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for games..." name="search" size="90">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <ul class="nav navbar-nav dropdown_bars">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games<span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-games" id="games">
+                    <li><a href="/games">Browse All Games</a></li>
+                    <li><a href="#">Top 10 Games (Coming Soon)</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav" id="reviews"></ul>
+        <ul class="nav navbar-nav floatRight">
+            <li><a id="user_name"></a></li>
+            <li><a id="glyphicon"></a></li>
+            <li><a id="update_user"></a></li>
+            <li><a id="user_glyphicon"></a></li>
+        </ul>
+    </div>
+</nav>
+<script src="../header/header.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#363636"
+            },
+            "button": {
+                "background": "#E88B00"
+            }
+        },
+        "content": {
+            "dismiss": "No problemo!"
+        }
+    });
+</script>
+

@@ -1,0 +1,64 @@
+.users_container {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 1.3em;
+}
+
+.users_container h1 {
+    margin-bottom: 5%;
+    color: orange;
+}
+
+.users_container table {
+    border-collapse: separate !important;
+}
+
+.users_container table tr {
+    height: 2.5em;
+    border: #FF9900;
+}
+
+.users_container table thead th {
+    height: 2.5em;
+    text-align: center;
+    background-color: #363636;
+    color: orange;
+    border: #FF9900;
+}
+
+.users_container table tr td {
+    border: 1px solid orange;
+}
+
+.glyphicon {
+    width: 20%;
+    color: white;
+}
+
+.glyphicon:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+#first_row td:first-child {
+    border-top-left-radius: 40px;
+}
+#first_row td:last-child {
+    border-top-right-radius: 10px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 40px;
+}
+
+#first_row {
+    background-color: #363636;
+    color: orange;
+    border-top: 3px;
+}
