@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,19 +11,24 @@
         <module name="SI-Exam-GameInfo" />
         <module name="SI-Exam-Review" />
         <module name="Si-Exam-LoginSystem" />
+        <module name="SI-Exam-QACamunda" />
         <module name="SI-Exam-Monitor" />
+        <module name="SI-Exam-QACategorization" />
         <module name="Si-Exam-EurekaGateway" />
         <module name="SI-Exam-GameService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Si-Exam-EurekaGateway" target="11" />
+      <module name="Si-Exam-EurekaGateway (2)" target="11" />
       <module name="SI-Exam-EurekaServer" target="11" />
       <module name="SI-Exam-GameInfo" target="11" />
       <module name="SI-Exam-GameService" target="11" />
-      <module name="Si-Exam-Gateway" target="1.5" />
+      <module name="SI-Exam-GameService (1)" target="11" />
       <module name="Si-Exam-LoginSystem" target="11" />
       <module name="SI-Exam-Monitor" target="11" />
+      <module name="SI-Exam-QACamunda" target="11" />
+      <module name="SI-Exam-QACategorization" target="11" />
       <module name="SI-Exam-Review" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -31,7 +37,9 @@
       <module name="SI-Exam-EurekaServer" options="-parameters" />
       <module name="SI-Exam-GameInfo" options="-parameters" />
       <module name="SI-Exam-GameService" options="-parameters" />
+      <module name="SI-Exam-GameService (1)" options="-parameters" />
       <module name="SI-Exam-Monitor" options="-parameters" />
+      <module name="SI-Exam-QACategorization" options="-parameters" />
       <module name="Si-Exam-EurekaGateway" options="-parameters" />
       <module name="Si-Exam-LoginSystem" options="-parameters" />
     </option>

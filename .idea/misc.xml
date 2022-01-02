@@ -3,17 +3,19 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-EurekaGateway/pom.xml" />
-        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-EurekaServer/pom.xml" />
-        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameInfo/pom.xml" />
-        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameService/pom.xml" />
-        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-LoginSystem/pom.xml" />
-        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Monitor/pom.xml" />
-        <option value="$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Review/pom.xml" />
+        <option value="$PROJECT_DIR$/SI-Exam-QACamunda/pom.xml" />
+        <option value="$PROJECT_DIR$/Si-Exam-EurekaGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/SI-Exam-EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/SI-Exam-GameInfo/pom.xml" />
+        <option value="$PROJECT_DIR$/SI-Exam-GameService/pom.xml" />
+        <option value="$PROJECT_DIR$/Si-Exam-LoginSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/SI-Exam-Monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/SI-Exam-QACategorization/pom.xml" />
+        <option value="$PROJECT_DIR$/SI-Exam-Review/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

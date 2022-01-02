@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-EurekaServer/src/main/java" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameInfo/src/main/java" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-GameService/src/main/java" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Monitor/src/main/java" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/SI-Exam-Monitor/src/main/resources" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-EurekaGateway/src/main/java" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-LoginSystem/src/main/java" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/SI-Exam-Project/SI-Exam-Project/Si-Exam-LoginSystem/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-EurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-EurekaServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-GameInfo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-GameInfo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-GameService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-GameService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-Monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-Monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-QACamunda/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-QACamunda/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-QACategorization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SI-Exam-QACategorization/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Si-Exam-EurekaGateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Si-Exam-LoginSystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Si-Exam-LoginSystem/src/main/resources" charset="UTF-8" />
   </component>
 </project>
