@@ -7,7 +7,6 @@ import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
 import si.stubs.review.*;
 
-import java.util.Date;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.logging.Level;
