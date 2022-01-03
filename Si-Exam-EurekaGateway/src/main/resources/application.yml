@@ -23,4 +23,17 @@ spring:
           uri: lb://si-exam-loginSystem
           predicates:
             - Path=/users/**, /auth/**
+        - id: si-exam-gameinfo
+          uri: lb://si-exam-gameinfo
+          predicates:
+            - Path=/games/**, /reviews/**
+        - id: si-exam-gameservice
+          uri: lb://si-exam-gameservice
+          predicates:
+            - Path=/**
+        - id: si-exam-monitor
+          uri: lb://si-exam-monitor
+          predicates:
+            - Path=/allReviews/
+
 
