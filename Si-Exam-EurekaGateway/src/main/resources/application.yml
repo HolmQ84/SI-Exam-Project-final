@@ -19,19 +19,19 @@ spring:
         locator:
           enabled: true #Enables eureka discovery service
       routes:
-        - id: si-exam-loginsystem
+        - id: Si-Exam-LoginSystem
           uri: lb://si-exam-loginSystem
           predicates:
             - Path=/users/**, /auth/**
-        - id: si-exam-gameinfo
+        - id: Si-Exam-GameInfo
           uri: lb://si-exam-gameinfo
           predicates:
             - Path=/games/**, /reviews/**
-        - id: si-exam-gameservice
+        - id: Si-Exam-GameService
           uri: lb://si-exam-gameservice
           predicates:
             - Path=/**
-        - id: si-exam-monitor
+        - id: Si-Exam-Monitor
           uri: lb://si-exam-monitor
           predicates:
-            - Path=/allReviews/
+            - Path=/monitor/**

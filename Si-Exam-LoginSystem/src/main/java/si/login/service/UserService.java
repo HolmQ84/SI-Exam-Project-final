@@ -46,6 +46,8 @@ public class UserService {
             if (changedUser == null) return ResponseEntity.status(HttpStatus.NOT_FOUND).body("HTTP 404: Resource not found");
 
             changedUser.setUsername(requestedUser.getUsername());
+            changedUser.setMail(requestedUser.getMail());
+            changedUser.setName(requestedUser.getName());
             changedUser.setPassword(BCrypt.hashpw(requestedUser.getPassword(), BCrypt.gensalt(10)));
 
             kafkaService.sendUserTopic(converter.userToJson(changedUser, "update"));
