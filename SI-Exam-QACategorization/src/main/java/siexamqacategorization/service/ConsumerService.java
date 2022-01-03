@@ -74,9 +74,14 @@ public class ConsumerService {
                 }
             }
         } else if (searchDB(message).size() < 1) {
-            System.out.println("Doesn't have answers :" + message);
+            logger.info("Doesn't have answers");
+            try {
+                producerService.createQueue("Doesn't have answers");
+                producerService.sendMessage(message);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-
     }
 
     // List of all questions

@@ -29,6 +29,7 @@ public class ConsumerService {
 
     static String messageFromQuestion;
 
+
     @Bean
     public static void connectQueue() throws Exception
     {
@@ -49,10 +50,10 @@ public class ConsumerService {
         // Get notified, if a message for this receiver arrives
         DeliverCallback deliverCallback = (consumerTag, delivery) -> {
             String message = new String(delivery.getBody(), "UTF-8");
-            System.out.println("Received From Cat'" + delivery.getEnvelope().getRoutingKey() + "':'" +  message + "'");
+            System.out.println("Received From Cat : " + delivery.getEnvelope().getRoutingKey() + "':'" +  message + "'");
             messageFromQuestion = message;
-        };
 
+        };
         channel.basicConsume(queueName, true, deliverCallback, consumerTag -> { });
     }
 

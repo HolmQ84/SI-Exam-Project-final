@@ -41,13 +41,20 @@ public class Question implements JavaDelegate {
 
         producerService.createQueue(question);
 
-
         TimeUnit.SECONDS.sleep(5);
 
-        System.out.println("Passed sleeper "+ consumerService.fetchMessage());
-        //todo: Send message to camunda
-        // message = somequestion / No questions
-        execution.setVariable("temp", consumerService.fetchMessage());
+        similarQuestionList.add(consumerService.fetchMessage());
+        logger.info(similarQuestionList.toString());
+        logger.info("Passed 5 second sleeper, with message : " + consumerService.fetchMessage());
+
+        if (consumerService.fetchMessage().equals("Doesn't have answers")) {
+            logger.info("setting to Doesn't have answers");
+            execution.setVariable("answer", "Doesn't have answers");
+
+        } else {
+            logger.info("Has answers");
+            execution.setVariable("answer", consumerService.fetchMessage());
+        }
     }
 /*
 
