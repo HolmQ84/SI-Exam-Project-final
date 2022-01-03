@@ -23,7 +23,7 @@ spring:
     password: 1234
     driverClassName: org.h2.Driver
   jpa:
-    spring.jpa.database-platform: org.hibernate.dialect.H2Dialec
+    database-platform: org.hibernate.dialect.H2Dialect
 
 
 #server:

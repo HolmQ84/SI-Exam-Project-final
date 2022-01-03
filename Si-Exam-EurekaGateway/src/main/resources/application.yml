@@ -35,5 +35,3 @@ spring:
           uri: lb://si-exam-monitor
           predicates:
             - Path=/allReviews/
-
-
